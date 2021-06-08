@@ -410,7 +410,7 @@ genrule(
         "#  define OS \"x86_64-apple-darwin15.5.0\"",
         "#  define USE_DARWINSSL 1",
         "#else",
-        "#  define CURL_CA_BUNDLE \"/etc/ssl/certs/ca-certificates.crt\"",
+        "#  define CURL_WANTS_CA_BUNDLE_ENV 1",
         "#  define GETSERVBYPORT_R_ARGS 6",
         "#  define GETSERVBYPORT_R_BUFSIZE 4096",
         "#  define HAVE_BORINGSSL 1",
